@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow');
 
 body,  {
-    background-color: #fff; !important!;
+    background-color: #fff;
 }
 
 
@@ -26,4 +26,18 @@ h2 {
 p{
     font-family: 'Barlow';
     font-size: 100%
+}
+
+td.blue td.red {
+    min-width: 100px;
+}
+
+td.blue {
+    background-color: #BBDCEF;
+    color: transparent;
+}
+
+td.red {
+    background-color: #C3003D;
+    color: transparent;
 }

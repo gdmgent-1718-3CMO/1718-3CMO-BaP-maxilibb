@@ -31,6 +31,12 @@
   permalink: fotografie
   # fa-icon: icon-info
 
+- name: algemene informatie
+  description: algemene informatie
+  folder: pages/algemene informatie/
+  permalink: algemeneinformatie
+  # fa-icon: icon-info
+
 - name: Styleguide
   description: Stijlgids voor de Huistijlgids
   # folder: pages/stijlgids
