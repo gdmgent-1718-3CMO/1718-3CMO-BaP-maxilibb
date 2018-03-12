@@ -25,6 +25,12 @@
   permalink: documenten/
   # fa-icon: icon-info
 
+- name: fotografie
+  description: fotografie
+  folder: pages/fotografie/
+  permalink: fotografie
+  # fa-icon: icon-info
+
 - name: Styleguide
   description: Stijlgids voor de Huistijlgids
   # folder: pages/stijlgids

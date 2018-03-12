@@ -3,3 +3,27 @@
 @charset "UTF-8";
 
 @import "main";
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+body,  {
+    background-color: #fff; !important!;
+}
+
+
+
+h1 {
+    font-family: 'Comfortaa';
+    font-size: 280%;
+    font-variant: 300;
+}
+
+h2 {
+    font-family: 'Barlow';
+    font-size: 160%;
+}
+
+p{
+    font-family: 'Barlow';
+    font-size: 100%
+}
