@@ -19,6 +19,12 @@
   permalink: kleur/
   # fa-icon: icon-info
 
+- name: Kleur2
+  description: Kleur2
+  folder: pages/kleur2
+  permalink: kleur2/
+  # fa-icon: icon-info
+
 - name: Styleguide
   description: Stijlgids voor de Huistijlgids
   # folder: pages/stijlgids
