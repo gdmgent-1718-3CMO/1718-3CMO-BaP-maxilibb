@@ -10,8 +10,6 @@ body,  {
     background-color: #fff;
 }
 
-
-
 h1 {
     font-family: 'Comfortaa';
     font-size: 280%;
@@ -23,7 +21,7 @@ h2 {
     font-size: 160%;
 }
 
-p{
+p, li{
     font-family: 'Barlow';
     font-size: 100%
 }
@@ -40,4 +38,27 @@ td.blue {
 td.red {
     background-color: #C3003D;
     color: transparent;
+}
+
+button {
+    background-color: #BBDCEF;
+    border: none;
+}
+
+.button {
+    color: #fff;
+    border-bottom: none;
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+.dropdown-item {
+    max-width: 500px !important;
+    white-space: normal !important;
+}
+
+.logo-huisstijl {
+    max-width: 50%;
 }
