@@ -4,63 +4,104 @@
 
 @import "main";
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Barlow');
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,700,900');
 
 body,  {
-    background-color: #fff;
+    background-color: #f2f3f4;
+    background-image: url(../images/voorbeelden/background-01.png) no-repeat center center fixed;
+    width: 100%;
+    background-size: cover;
+    
 }
 
-h1 {
-    font-family: 'Comfortaa';
-    font-size: 280%;
-    font-variant: 300;
-}
-
-h2 {
-    font-family: 'Barlow';
-    font-size: 160%;
-}
-
-p, li{
-    font-family: 'Barlow';
-    font-size: 100%
-}
-
-td.blue td.red {
-    min-width: 100px;
-}
-
-td.blue {
-    background-color: #BBDCEF;
-    color: transparent;
-}
-
-td.red {
-    background-color: #C3003D;
-    color: transparent;
-}
-
-button {
-    background-color: #BBDCEF;
-    border: none;
-}
-
-.button {
-    color: #fff;
-    border-bottom: none;
-}
+/* NAVIGATIE */
 
 .navbar {
-    background-color: white !important;
+    background-color: transparent !important;
+    margin-top: 0;
+    height: 100px;
 }
 
 .dropdown-item {
     max-width: 500px !important;
     white-space: normal !important;
+
 }
 
-.logo-huisstijl {
-    max-width: 50%;
+.nav-item {
+    margin-right: 60px;
+    text-transform: uppercase;
+    
+}
+
+.navbar-brand > img {
+    max-width: 100px;
+}
+
+li {
+    font-family: 'Barlow';
+    font-size: 100%;
+}
+
+/* TITLES */
+h1 {
+    font-family: 'Barlow';
+    font-variant: 900;
+    font-size: 700%;
+    color: #000;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+
+h2 {
+    font-family: 'Barlow';
+    font-variant: 900;
+    font-size: 200%;
+    color: #000;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+h3 {
+    font-family: 'Barlow';
+    font-variant: 900;
+    font-size: 100%;
+    color: #000;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+/* TEKST*/ 
+p {
+    font-family: 'Barlow';
+    font-variant: 700;
+    font-size: 100%;
+    color: #000;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+    line-height: 170%;
+}
+
+.opsomming  {
+    font-family: 'Barlow';
+    text-decoration: none;
+    line-height: 70%;
+    margin-left: 200px;
+    color: #000;
+}
+
+/* IMAGES */
+img.logo-huisstijl {
+    max-width: 30%;
+    margin-left: 115px;
+    margin-top: 0px;
 }
 
 .logo-huisstijl2 {
@@ -76,4 +117,62 @@ button {
     max-width: 20%;
     float: left;
     margin-right: 10px;
+}
+
+
+
+/* INDEX */
+.bigimage {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: -999;
+    border-radius: 0 0 15px 15px;
+    margin-bottom: 200px;
+}
+
+.quote{
+    z-index: 999;
+    font-size: 100px;
+    line-height: 110px;
+    font-weight: 700;
+    color: #fff;
+    
+    margin-top: -800px;
+    margin-bottom: 200px;
+    margin-right: 500px;
+    margin-left: 100px;
+
+
+}
+
+
+/* KADERS */
+.kader {
+    background-color: #BBDCEF;
+    padding: 30px;
+    border-radius: 15px;
+    float: left;
+}
+
+.kader-rood {
+    border: 3px solid #C3003D;
+    padding: 30px;
+
+    border-radius: 15px;
+    float: right;
+}
+
+.kader-grijs {
+    background-color: #dadada;
+    margin-top: 40px;
+    padding: 30px;
+
+    border-radius: 15px;
+
+}
+
+.uitleg {
+    padding: 30px;
+    margin-right: 400px;
 }

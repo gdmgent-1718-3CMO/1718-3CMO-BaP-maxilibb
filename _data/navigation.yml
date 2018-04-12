@@ -7,11 +7,23 @@
   permalink: /index 
   # fa-icon: icon-info
 
-- name: logo
+- name: Logo
   description: Logo
-  folder: pages/logo/
-  permalink: logo/
-  # fa-icon: icon-graduation-cap
+  # folder: pages/
+  permalink: /logo 
+  # fa-icon: icon-info
+
+- name: Kleur
+  description: Kleur
+  # folder: pages/
+  permalink: /kleur 
+  # fa-icon: icon-info
+  
+- name: Typografie
+  description: Typografie
+  # folder: pages/
+  permalink: /Typografie 
+  # fa-icon: icon-info
 
 - name: print
   description: print
@@ -29,17 +41,5 @@
   description: fotografie
   folder: pages/fotografie/
   permalink: fotografie
-  # fa-icon: icon-info
-
-- name: algemene informatie
-  description: algemene informatie
-  folder: pages/algemene informatie/
-  permalink: algemeneinformatie
-  # fa-icon: icon-info
-
-- name: styleguide
-  description: Stijlgids voor de Huistijlgids
-  # folder: pages/stijlgids
-  permalink: /stijlgids
   # fa-icon: icon-info
 
