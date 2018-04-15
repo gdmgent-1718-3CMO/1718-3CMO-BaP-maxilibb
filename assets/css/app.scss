@@ -4,11 +4,11 @@
 
 @import "main";
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Barlow:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,500, 600, 700,900');
 
 body,  {
-    background-color: #f2f3f4;
-    background-image: url(../images/voorbeelden/background-01.png) no-repeat center center fixed;
+    background-color: #fff;
+    background-image: url(../../images/voorbeelden/background-01.png) no-repeat center center fixed ;
     width: 100%;
     background-size: cover;
     
@@ -31,7 +31,12 @@ body,  {
 .nav-item {
     margin-right: 60px;
     text-transform: uppercase;
-    
+    font-weight: 500; 
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: #BBDCEF !important;
 }
 
 .navbar-brand > img {
@@ -46,8 +51,8 @@ li {
 /* TITLES */
 h1 {
     font-family: 'Barlow';
-    font-variant: 900;
-    font-size: 700%;
+    font-weight: 500; 
+    font-size: 500%;
     color: #000;
     text-align: left;
     margin-top: 100px;
@@ -61,7 +66,7 @@ h2 {
     color: #000;
     text-align: left;
     margin-top: 30px;
-    margin-left: 10px;
+
 }
 
 
@@ -89,6 +94,30 @@ p {
     line-height: 170%;
 }
 
+.comfortaa {
+    font-family: 'Comfortaa';
+    font-size: 250%;
+    line-height: 120%;
+    color:#C3003D;
+}
+
+.barreg {
+    font-family: 'Barlow';
+    font-size: 250%;
+    line-height: 120%;
+    color:#C3003D;
+}
+
+.barbold {
+    font-family: 'Barlow';
+    font-size: 250%;
+    font-weight: 700;
+    line-height: 120%;
+    color:#C3003D;
+}
+
+
+
 .opsomming  {
     font-family: 'Barlow';
     text-decoration: none;
@@ -96,6 +125,19 @@ p {
     margin-left: 200px;
     color: #000;
 }
+
+a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: none;
+}
+
+a:hover {
+    color: #BBDCEF;
+    border-bottom: none;
+}
+
+
 
 /* IMAGES */
 img.logo-huisstijl {
