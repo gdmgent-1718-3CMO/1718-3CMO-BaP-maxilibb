@@ -14,15 +14,15 @@
   # fa-icon: icon-info
 
 - name: Kleur
-  description: Kleur
+  description: kleur
   # folder: pages/
   permalink: /kleur 
   # fa-icon: icon-info
   
-- name: Typografie
-  description: Typografie
+- name: typografie
+  description: typografie
   # folder: pages/
-  permalink: /Typografie 
+  permalink: /typografie 
   # fa-icon: icon-info
 
 - name: print
