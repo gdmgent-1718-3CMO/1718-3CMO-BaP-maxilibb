@@ -19,10 +19,10 @@
   permalink: /kleur 
   # fa-icon: icon-info
   
-- name: typografie
-  description: typografie
+- name: typo
+  description: typo
   # folder: pages/
-  permalink: /typografie 
+  permalink: /typo 
   # fa-icon: icon-info
 
 - name: print
